@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: prelauncher_dev
+  host: 104.236.50.110
+  pool: 5
+  username: postgres
+  password: Dr88Pepper
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: prelauncher_test
+  host: 104.236.50.110
+  pool: 5
+  username: postgres
+  password: Dr88Pepper
