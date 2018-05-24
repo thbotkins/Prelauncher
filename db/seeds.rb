@@ -1,6 +1,6 @@
 def seed_users
   user_id = 0
-  10.times do
+  10.times do 
     User.create(
       name: "test#{user_id}",
       email: "test#{user_id}@test.com",
@@ -10,6 +10,7 @@ def seed_users
     user_id = user_id + 1
   end
 end
+
 
 def seed_categories
   hobby = ['Arts', 'Crafts', 'Sports', 'Sciences', 'Collecting', 'Reading', 'Other']
@@ -37,9 +38,9 @@ def seed_posts
   categories.each do |category|
     5.times do
       Post.create(
-        title: Faker::Lorem.sentences[0],
-        content: Faker::Lorem.sentences[0],
-        user_id: rand(1..9),
+        title: Faker::Lorem.sentences[0], 
+        content: Faker::Lorem.sentences[0], 
+        user_id: rand(1..9), 
         category_id: category.id
       )
     end

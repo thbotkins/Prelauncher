@@ -11,6 +11,7 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.11'
 # Use Jquery
 gem 'jquery-rails'
+gem 'jquery-turbolinks'
 # Use bootstrap
 gem 'bootstrap-sass', '~> 3.3.6'
 # Use SCSS for stylesheets
